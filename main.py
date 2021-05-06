@@ -35,7 +35,7 @@ async def help(ctx):
     embed.add_field(name='.webhookspam', value='```THIS COMMAND FILLS THE SERVER THIS SPAM lol ```')
     embed.add_field(name='.banall', value='```THIS COMMAND BANS EVERYONE```')
     embed.add_field(name='.help', value='```help command```')
-    embed.add_field(name='.hackhelp', value='```shows hack commands```')
+    embed.add_field(name='.helphack', value='```shows hack commands```')
     await ctx.send(embed=embed) 
     
 @RICHY.command()
